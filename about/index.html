@@ -38,7 +38,7 @@
 
    <style>
     body{
-       background-image: url(/medias/featureimages/3.jpg);
+       background-image: url();
        background-repeat:no-repeat;
        background-size: 100% 100%;
        background-attachment:fixed;
@@ -70,7 +70,7 @@
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
-      <span>首页</span>
+      <span>主页</span>
     </a>
     
   </li>
@@ -136,7 +136,7 @@
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
       
-      <span>友情链接</span>
+      <span>友人帐</span>
     </a>
     
   </li>
@@ -171,7 +171,7 @@
 			
 			    <i class="fa-fw fas fa-home"></i>
 			
-			首页
+			主页
 		</a>
           
         </li>
@@ -237,7 +237,7 @@
 			
 			    <i class="fa-fw fas fa-address-book"></i>
 			
-			友情链接
+			友人帐
 		</a>
           
         </li>
@@ -389,7 +389,17 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">3</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                     </div>
@@ -409,12 +419,22 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">3</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                                 </div>
                                 <div class="title">Jokz</div>
-                                <div class="career">大四|计算机科学与技术专业在读</div>
+                                <div class="career">大四 计算机科学与技术专业在读</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
     <a href="https://github.com/Jockkzy" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
@@ -593,7 +613,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"Blog","value":2},{"name":"Git","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -617,7 +637,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["Hexo","Git","Github"]
             }
         ],
         yAxis: [
@@ -630,7 +650,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [2,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -798,6 +818,24 @@
     <div class="other-skills chip-container" data-aos="zoom-in-up">
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
+            
+            
+            <a href="/tags/Hexo/">
+                <span class="chip center-align waves-effect waves-light chip-default">Hexo</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Git/">
+                <span class="chip center-align waves-effect waves-light chip-default">Git</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Github/">
+                <span class="chip center-align waves-effect waves-light chip-default">Github</span>
+            </a>
+            
             
         </div>
     </div>
